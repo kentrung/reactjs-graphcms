@@ -29,7 +29,7 @@ const ListPost = () => {
           <div className="card mt-4" key={post.slug}>
             <div className="card-body">
               <h4 className="card-title">
-                <Link to={post.slug}>
+                <Link to={post.slug} className="text-decoration-none">
                   {post.title}
                 </Link>
               </h4>
